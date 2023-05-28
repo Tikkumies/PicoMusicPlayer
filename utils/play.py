@@ -1,6 +1,5 @@
-from machine import Pin, PWM
 from utime import sleep
-piezo = PWM(Pin(28))
+from io.io_definitions import piezo
 
 def play_note(note, note_length):
     if note_length == "half":

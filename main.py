@@ -1,9 +1,7 @@
-from machine import Pin, PWM
 from data.notes import notes
 from data.songs import happy_birthday
 from utils import play
-
-button = Pin(27, Pin.IN, Pin.PULL_DOWN)
+from.io.io_definitions import button
 
 if __name__ == "__main__":
     while True:
@@ -12,9 +10,3 @@ if __name__ == "__main__":
             for note_and_lenght in happy_birthday:
                 note = notes[note_and_lenght[0]]
                 play.play_note(note, note_and_lenght[1])
-
-
-        
-
-
-        
