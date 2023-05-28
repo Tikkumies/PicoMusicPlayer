@@ -23,5 +23,5 @@ happy_birthday =[
     ("A5", "quarter"),
     ("F5", "quarter"),
     ("G5", "quarter"),
-    ("E5", "half")
+    ("F5", "half")
     ]
