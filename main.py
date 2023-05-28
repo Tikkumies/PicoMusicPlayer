@@ -1,7 +1,7 @@
 from data.notes import notes
 from data.songs import happy_birthday
 from utils import play
-from.io.io_definitions import button
+from io.io_definitions import button
 
 if __name__ == "__main__":
     while True:
